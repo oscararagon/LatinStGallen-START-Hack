@@ -19,3 +19,10 @@ The baseline model lacked data augmentation, which is essential for increasing t
 ##### 2. Fine-Tuning on Hidden Dataset
 
 In addition to training on the main dataset, we fine-tuned the model on a smaller, augmented dataset of 20 hidden images. This further improved the model's performance by exposing it to additional unseen data and enhancing its ability to generalize.
+
+## Task 2
+We built a mockup using the data provided by the case partner for data visualization `Task2Submission.jpeg`
+
+## Task 3
+Thruogh the power-point presentation `G20_LatinStGallen.pptx` we provided and pitched a possible innovative solution to the wildfire problem, trying to tackle the different active actors in the problem
+
