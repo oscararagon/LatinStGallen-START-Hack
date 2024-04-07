@@ -6,22 +6,16 @@ This repository contains our team's work on developing a visualization tool to s
 
 ### Stage 1: Baseline Model
 In the initial phase, we built a baseline model. This model was able to achieve a Test Set Accuracy of 0.9146 after training for 15 epochs using the Adam optimizer.The baseline model is composed of the preprocessing layer of the EfficientNetB0 backbone, the pre-trained EfficientNetB0 base model for feature extraction, pooling to condense the features, and a prediction layer for output. All baseline performances and model specifications can be found in the `baseline_model` directory in this repository.
-<!--
-### Stage 2: Enhanced Model
-After obtaining results from the baseline model, we refined and fine-tuned our model in order to build an enhanced version. Details of the improvements and additional features that were included, as well as clarity on the results are documented in the `enhanced_model` directory.
 
-## Installation
-Please refer to `installation_guide.md` for information on how to set up and run the program.
+### Stage 2: Improved Wildfire Detection Model
+After obtaining results from the baseline model, we refined and fine-tuned our model in order to build an enhanced version. Details of the improvements and additional features that were included, as well as clarity on the results are documented in the `Task1_Submission` directory.
 
-## Usage
-To use our program, please follow the instructions listed in the `usage_instructions.md`.
+#### Improvements
 
-## Contributing
-For details on how to collaborate with our project or submit pull requests, please follow the instructions in `contributing.md`.
+##### 1. Data Augmentation
 
-## License
-This project is licensed under MIT License. For more information, check `LICENSE.md`.
+The baseline model lacked data augmentation, which is essential for increasing the model's robustness and reducing overfitting. We incorporated various augmentation techniques such as random flips, rotations, and Gaussian noise to simulate real-world variations in the data.
 
-## Contact
-For any inquiries or feedback, you can get in touch with us at [teamemailaddress@domain.com](mailto:teamemailaddress@domain.com).
--->
+##### 2. Fine-Tuning on Hidden Dataset
+
+In addition to training on the main dataset, we fine-tuned the model on a smaller, augmented dataset of 20 hidden images. This further improved the model's performance by exposing it to additional unseen data and enhancing its ability to generalize.
