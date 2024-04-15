@@ -30,6 +30,8 @@ Starting from the provided Colab file, we added functions to obtain various metr
 - ['10'] grasslands
 - ['11'] wetlands
 - ['15'] snowIce
+
+
 We collected the results in CSV files. Subsequently, based on this data, we observed how the trend of each type has changed over the years to see if there were any trends of interest.
 
 These results were then useful for supporting the final pitch.
