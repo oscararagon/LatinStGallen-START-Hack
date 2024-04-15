@@ -23,13 +23,13 @@ In addition to training on the main dataset, we fine-tuned the model on a smalle
 ## Task 2
 Starting from the provided Colab file, we added functions to obtain various metrics from the burned areas. For example, we analyzed how the extension of all types of territories in Brazil has varied over the years, grouping them into:
 
-['1-5'] forest
-['6-7'] shrublands
-['8-9-16'] savannas
-['12-14'] croplands
-['10'] grasslands
-['11'] wetlands
-['15'] snowIce
+- ['1-5'] forest
+- ['6-7'] shrublands
+- ['8-9-16'] savannas
+- ['12-14'] croplands
+- ['10'] grasslands
+- ['11'] wetlands
+- ['15'] snowIce
 We collected the results in CSV files. Subsequently, based on this data, we observed how the trend of each type has changed over the years to see if there were any trends of interest.
 
 These results were then useful for supporting the final pitch.
